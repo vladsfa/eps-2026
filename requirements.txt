@@ -1,0 +1,8 @@
+# Python >= 3.10; системно також потрібні ffmpeg і ffprobe (brew install ffmpeg / apt install ffmpeg)
+requests>=2.31
+python-dotenv>=1.0
+pillow>=10.0
+matplotlib>=3.8
+pandas>=2.0
+ipython>=8.0
+jupyter>=1.0

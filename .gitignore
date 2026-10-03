@@ -1,0 +1,9 @@
+# секрети
+.env
+# результати запусків (mp4 з bbox, GIF, кеш batch-інференсу)
+outputs/
+# службове
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
