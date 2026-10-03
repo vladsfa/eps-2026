@@ -1,6 +1,8 @@
 # Автоматична детекція, відокремлення та парсинг OSD з відеопотоку БПЛА
 
-Двостадійний пайплайн на vision-LLM (`qwen/qwen3.8-flash` через [OpenRouter](https://openrouter.ai)).
+> 👉 **Результати інференсу дивись у [`osd_pipeline.ipynb`](osd_pipeline.ipynb).**
+
+Двостадійний пайплайн на vision-LLM (`qwen/qwen3.8-flash`, reasoning: `low`, через [OpenRouter](https://openrouter.ai)).
 Він знаходить на відео з БПЛА елементи OSD (on-screen display), **відокремлює** їх від сцени і **зчитує**
 телеметрію у словник із 25 ключів.
 
