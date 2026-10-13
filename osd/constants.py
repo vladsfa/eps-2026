@@ -23,7 +23,7 @@ VIDEO_EXTS = {".mp4", ".mov", ".mkv", ".avi", ".webm"}
 # ---------------------------------------------------------------------------
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
 API_KEY_ENV = "OPENROUTER_API_KEY"
-MODEL_1 = "qwen/qwen3.8-flash"     # модель 1 — детекція bbox
+MODEL_1 = "meta/muse-spark-1.3-contributor"     # модель 1 — детекція bbox
 REASONING_1 = "low"                # low | medium | high | xhigh | None
 MODEL_2 = "qwen/qwen3.8-flash"     # модель 2 — зчитування значень
 REASONING_2 = "low"

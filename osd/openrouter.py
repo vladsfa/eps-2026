@@ -61,7 +61,7 @@ def get_api_key(api_key: str | None = None) -> str:
     key = (api_key or "").strip()
     if not key:
         if ENV_FILE.exists():
-            load_dotenv(ENV_FILE, override=False)
+            load_dotenv(ENV_FILE, override=True)
         key = os.environ.get(API_KEY_ENV, "").strip().strip('"').strip("'")
     if not key:
         raise RuntimeError(f"не знайдено {API_KEY_ENV}: передай api_key, задай змінну оточення "
